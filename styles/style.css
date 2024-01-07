@@ -1,0 +1,28 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap");
+* {
+  font-family: "Inter", sans-serif;
+  font-family: "Merriweather", serif;
+}
+.container {
+  width: 1320px;
+  height: 600px;
+  background-image: url(../resources/Banner\ Image.png);
+  border-radius: 16px;
+  background: #010006fb, #070211fe;
+  margin: 50px 140px;
+}
+.container p {
+  color: #fff;
+  text-align: center;
+  font-size: 32px;
+  font-weight: 400;
+  padding-top: 150px;
+}
+.container h1 {
+  color: #fff;
+  text-align: center;
+  font-size: 72px;
+  font-weight: 900;
+  padding: 0 300px;
+  margin-top: auto;
+}
