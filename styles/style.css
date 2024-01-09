@@ -163,7 +163,43 @@ main {
   font-size: 20px;
   font-weight: 600;
 }
-.newslatter{
+.newslatter {
   margin-bottom: 20px;
   margin-top: 35px;
+}
+/* Footer Related Style */
+footer {
+  width: 1600px;
+  height: 609px;
+  flex-shrink: 0;
+  background: #070211;
+  margin-top: 120px;
+}
+.first{
+  display: flex;
+  justify-content: space-between;
+}
+.footer-address {
+  color: #fff;
+  font-size: 20px;
+  font-weight: 500;
+  margin-left: 140px;
+  margin-top: 120px;
+  margin-bottom: 50px;
+  width: 370px;
+  height: 75px;
+}
+
+.line {
+  width: 1320px;
+  height: 1px;
+  background: rgba(255, 255, 255, 0.15);
+}
+
+.footer-contact {
+  color: #fff;
+  font-size: 20px;
+  font-weight: 500;
+  margin-right: 200px;
+  margin-top: 120px;
 }
