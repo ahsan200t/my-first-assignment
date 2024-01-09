@@ -28,7 +28,6 @@
   font-size: 72px;
   font-weight: 900;
   padding: 0 300px;
-  margin-top: auto;
 }
 /* Banner 2 Related Style */
 h2 {
@@ -41,7 +40,7 @@ h2 {
   margin: 60px 130px;
 }
 
-.banner-description{
+.banner-description {
   width: 500px;
   height: 30px;
   color: rgba(255, 255, 255, 0.8);
@@ -54,7 +53,6 @@ h2 {
   text-align: center;
   font-family: Inter;
   font-size: 16px;
-  text-decoration: none;
   margin-left: 140px;
   margin-top: 20px;
 }
@@ -64,9 +62,9 @@ h2 {
   height: 600px;
   align-items: center;
   background-image: url(../resources/Vectorrr.png);
-  background-repeat: no-repeat;  
+  background-repeat: no-repeat;
 }
-.banner-section{
+.banner-section {
   margin: 120px 140px;
 }
 
@@ -89,9 +87,44 @@ h3 {
   text-align: center;
   font-size: 48px;
   font-weight: 700;
-  margin-top: 15px;
 }
 .content-image {
   text-align: center;
   margin-top: 48px;
 }
+/* Main Related Style */
+main {
+  background: #fff;
+  padding: 0px 140px;
+}
+.red {
+  color: #f00;
+  font-size: 24px;
+  font-weight: 500;
+}
+.section-heading {
+  text-align: left;
+  color: #070211;
+  font-size: 48px;
+  font-weight: 900;
+  
+}
+.section-description{
+  color: rgba(7, 2, 17, 0.6);
+  font-size: 20px;
+  font-weight: 400;
+  width: 800px;
+}
+.column {
+  float: left;
+}
+.row::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.padding{
+  margin-bottom: 16px;
+  margin-top: 18px;
+}
+
